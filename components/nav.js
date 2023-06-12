@@ -2,10 +2,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import ThemeSwitch from "./ThemeSwitch";
-import { CgClose } from "react-icons/cg";
-import { TbMenu2 } from "react-icons/tb";
-import Logo from "../public/logo.svg";
-import Image from "next/image";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
