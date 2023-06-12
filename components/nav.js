@@ -15,7 +15,7 @@ const Nav = () => {
       <div className="md:flex justify-between backdrop-blur-sm backdrop-saturate-200 bg-white/80 dark:bg-[#0d1117]/50 p-4 rounded-lg ">
         <div className="flex justify-between">
           <div className="font-bold text-2xl text-primary">
-            <Link href="/">SearchCountry</Link>
+            <Link href="/">SearchCountrie</Link>
           </div>
 
           <div className="md:hidden">

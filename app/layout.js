@@ -11,7 +11,7 @@ const poppins = Poppins({
  });
 
 export const metadata = {
-  title: "SearchCoutry",
+  title: "SearchCoutrie",
   description: "Search  what is your Coutry? ",
 };
 
