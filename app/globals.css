@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .text-primary{
+    @apply text-[#3E4247] dark:text-[#C5C9CE]
+  }
+
+  .card {
+    @apply  rounded-2xl bg-[#fcfcfd]  shadow-2xl hover:drop-shadow-sm  dark:bg-[#14171f] 
+  }
+ 
+  /* .card-header {
+    @apply py-2
+  } */
+
+  .card-body {
+    @apply py-2
+  }
+
+  .card-footer {
+    @apply py-2
+  }
+
+  .body-title {
+    @apply   py-2
+  }
+
+}
