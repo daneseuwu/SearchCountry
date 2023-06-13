@@ -64,7 +64,7 @@ const Countries = () => {
               />
             </div>
 
-            <div className="flex justify-center">
+            <div className="flex justify-center p-2">
               <div className="relative">
                 <HiChevronDown className="absolute top-0 bottom-0 w-6 h-6 my-auto text-gray-400 right-2.5" />
                 <select className="border border-slate-500/20 text-gray-500 w-72 h-12 shadow dark:bg-slate-500/25 focus:outline-none rounded-xl py-2 px-5 text-md  appearance-none cursor-pointer">
