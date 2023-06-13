@@ -32,7 +32,7 @@ const Page = ({ params }) => {
       {isLoading ? (
         <Loading />
       ) : (
-        <div className="card grid grid-cols-1 md:grid-cols-3 md:space-x-16">
+        <div className="card grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="col-span-2">
             <Image
               src={countrie[0]?.flags.svg}
