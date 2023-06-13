@@ -9,7 +9,7 @@
   }
 
   .card {
-    @apply  rounded-2xl bg-[#fcfcfd]  shadow-2xl hover:drop-shadow-sm  dark:bg-[#14171f] 
+    @apply  rounded-xl bg-[#fcfcfd]  shadow-xl hover:drop-shadow-sm  dark:bg-[#14171f] 
   }
  
   /* .card-header {
