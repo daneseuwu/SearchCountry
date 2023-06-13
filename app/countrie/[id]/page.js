@@ -75,7 +75,7 @@ const Page = ({ params, searchParams }) => {
             </div>
 
             <div className="text-primary px-2 py-2">
-              <div className="font-bold text-4xl">
+              <div className="font-semibold text-4xl">
                 {countrie[0]?.name?.common}
               </div>
               <span>{countrie[0]?.flag}</span>

@@ -89,7 +89,7 @@ const Countries = () => {
                 </Link>
 
                 <div className="px-2 py-1">
-                  <div className="text-primary text-center font-semibold">
+                  <div className="text-primary text-center font-bold">
                     {countrie.name.common}
                   </div>
                 </div>
