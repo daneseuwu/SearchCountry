@@ -82,7 +82,7 @@ const Countries = () => {
                   <Image
                     src={countrie.flags.svg}
                     alt={countrie.name.common}
-                    className="w-full h-36 object-cover rounded-2xl"
+                    className="h-40 object-cover rounded-2xl"
                     width={1000}
                     height={1000}
                   />
