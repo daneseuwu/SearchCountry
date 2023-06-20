@@ -19,6 +19,7 @@ const Page = ({ params, searchParams }) => {
       const data = await res.json();
       setCountrie(data);
       setIsLoading(false);
+      console.log(data)
     } catch (error) {
       console.log(error);
     }
@@ -35,20 +36,20 @@ const Page = ({ params, searchParams }) => {
       ) : (
         <div className="md:px-24">
           <div className="flex items-center whitespace-nowrap min-w-0 py-6">
-            <span class="text-sm">
+            <span className="text-sm">
               <Link
                 href="/"
-                class="flex items-center text-gray-500 hover:text-blue-600"
+                className="flex items-center text-gray-500 hover:text-blue-600"
               >
                 Home
                 <Next />
               </Link>
             </span>
 
-            <span class="text-sm">
+            <span className="text-sm">
               <li
                 href="/"
-                class="flex items-center text-gray-500 hover:text-blue-600"
+                className="flex items-center text-gray-500 hover:text-blue-600"
               >
                 country
                 <Next />
@@ -56,7 +57,7 @@ const Page = ({ params, searchParams }) => {
             </span>
 
             <span
-              class="text-sm font-semibold text-gray-800 truncate dark:text-gray-200"
+              className="text-sm font-semibold text-gray-800 truncate dark:text-gray-200"
               aria-current="page"
             >
               {countrie[0]?.name.common}

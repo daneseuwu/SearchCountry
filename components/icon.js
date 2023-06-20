@@ -3,7 +3,7 @@ import React from "react";
 export const Next = () => {
   return (
     <svg
-      class="flex-shrink-0 mx-3 overflow-visible h-2.5 w-2.5 text-gray-400 dark:text-gray-600"
+      className="flex-shrink-0 mx-3 overflow-visible h-2.5 w-2.5 text-gray-400 dark:text-gray-600"
       width="16"
       height="16"
       viewBox="0 0 16 16"
@@ -13,8 +13,8 @@ export const Next = () => {
       <path
         d="M5 1L10.6869 7.16086C10.8637 7.35239 10.8637 7.64761 10.6869 7.83914L5 14"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
+        strokeWidth="2"
+        strokeLinecap="round"
       />
     </svg>
   );
